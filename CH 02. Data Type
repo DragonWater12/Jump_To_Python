@@ -1,1 +1,33 @@
+# Exercise 1
+Average_Score =  (80 + 75 + 55) / 3
+print(Average_Score)
 
+# Answer 1
+a =  80
+b =  75
+c =  55
+(a+b+c)/3
+
+# Exercise 2
+13%2
+
+# Exercise 3
+
+# Exercise 4
+
+# Exercise 5
+
+# Exercise 6
+
+# Exercise 7
+
+# Exercise 11
+a = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
+aSet = set(a)      # {1, 2, 3, 4, 5}
+b = list(aSet)
+print(b)           # [1, 2, 3, 4, 5]
+
+# Exercise 12
+a = b = [1, 2, 3]  # 변수 a와 b는 동일한 객체 [1, 2, 3]을 가르킴. (=같은 주소)
+a[1] = 4           # a[1] = 4 "변수 a가 가르키는 리스트의 1번째 요소를 4로 수정해라"
+print(b)           # b 또한 같은 객체(리스트)를 가르키므로 [1, 4, 3]을 출력할 것이다.
